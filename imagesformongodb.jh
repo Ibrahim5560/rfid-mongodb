@@ -1,0 +1,18 @@
+
+/**
+ * Images (images) entity.\n@author Ibrahim Mohamed.
+ */
+entity Images {
+  guid String required,
+  cmd String required,
+  gantry Integer required,
+  base64 ImageBlob,
+  creationDate String
+}
+
+paginate all with pagination
+dto * with mapstruct
+service all with serviceImpl
+filter all
+
+         
