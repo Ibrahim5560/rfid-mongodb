@@ -1,0 +1,28 @@
+{
+  "rfidMongodbApp": {
+    "imageCollection": {
+      "home": {
+        "title": "Image Collections",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Image Collection",
+        "createOrEditLabel": "Create or edit a Image Collection",
+        "notFound": "No Image Collections found"
+      },
+      "created": "A new Image Collection is created with identifier {{ param }}",
+      "updated": "A Image Collection is updated with identifier {{ param }}",
+      "deleted": "A Image Collection is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Image Collection {{ id }}?"
+      },
+      "detail": {
+        "title": "Image Collection"
+      },
+      "id": "ID",
+      "guid": "Guid",
+      "cmd": "Cmd",
+      "base64": "Base 64",
+      "gantry": "Gantry",
+      "creationDate": "Creation Date"
+    }
+  }
+}
