@@ -1,0 +1,41 @@
+{
+  "applications": "*",
+  "changelogDate": "20221111210228",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "images",
+  "fields": [
+    {
+      "fieldName": "guid",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "cmd",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "gantry",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "base64",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "image"
+    },
+    {
+      "fieldName": "creationDate",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "javadoc": "Images (images) entity.\\n@author Ibrahim Mohamed.",
+  "jpaMetamodelFiltering": false,
+  "name": "Images",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
