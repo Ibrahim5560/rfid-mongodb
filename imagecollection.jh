@@ -1,0 +1,18 @@
+
+/**
+ * ImageCollection (imageCollection) entity.\n@author Ibrahim Mohamed.
+ */
+entity ImageCollection {
+  guid String required,
+  cmd String required,
+  base64 ImageBlob,
+  gantry Integer required,
+  creationDate Instant
+}
+
+paginate all with pagination
+dto * with mapstruct
+service all with serviceImpl
+filter all
+
+         
